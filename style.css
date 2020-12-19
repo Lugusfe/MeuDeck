@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.header{
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 10px 10px 5px 20px;
+  background-color: #f1b84e;
+}
+.titulodeenfeite{
+  margin: 0;
+  color: #fff;
+}
+
+
+/* Styles for the tilt block */
+    
+    #cartinha {
+    display: block;
+    height: 449px;
+    width: 342px;
+    background-color: grey;
+    margin-top: 200px;
+    margin: 0 auto;
+    border-radius: 14px;
+    transition: box-shadow 0.1s, transform 0.1s;
+    
+    
+
+    /*background-image: url(SWSH1_PT-BR_36.png);*/
+    background: linear-gradient(-45deg, #ee7752, #e73c3c, #f1b84e, #fcf962);
+	  background-size: 400% 400%;
+  	-webkit-animation: gradient 10s ease infinite;
+	        animation: gradient 10s ease infinite;
+}
+  
+  #cartinha:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+    cursor: pointer;
+    
+  }
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
